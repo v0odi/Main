@@ -1,0 +1,67 @@
+<?xml version='1.0' ?>
+	<!-- ||| Instructions fisherman slot |||-->
+
+<config>
+	<!-- ||| START GENERAL CONFIG ||| -->
+	<start_credit>10000</start_credit> <!-- setting starting credit, if you want to override it, just type the number between <start_credit> and </start_credit>  -->
+	<disable_add_credit>no</disable_add_credit> <!-- disable add credit button, if you want to disable it, just type yes between <disable_add_credit> and </disable_add_credit>  -->
+	<add_per_click>500</add_per_click> <!-- add credit when click add credit button, if you want to override it, just type the number between <add_per_click> and </add_per_click>  -->
+	<url_click>http://codecanyon.net/user/nhandsig</url_click> <!-- go to url when click add credit button, if you want to override it, just type the url between <url_click> and </url_click>  -->
+	<level_rank>12000</level_rank> <!-- total bet amount, player will be level up when reach it , calculator:LV*12000, if you want to override it, just type the number between <level_rank> and </level_rank>  -->
+	<prize_level_up>300</prize_level_up> <!-- add credit when level up, calculator: LV*300, if you want to override it, just type the number between <prize_level_up> and </prize_level_up>   -->
+	<cost_per_line>5</cost_per_line> <!-- cost of line, if you want to override it, just type the number between <cost_per_line> and </cost_per_line>  -->
+	<max_bet_per_line>25</max_bet_per_line> <!-- maximum bet per line, if you want to override it, just type the number between <max_bet_per_line> and </max_bet_per_line>  -->
+	<big_prize_effect>10000</big_prize_effect> <!-- show big prize effect when got equal or more 10000 credit, if you want to override it, just type the number between <big_prize_effect> and </big_prize_effect>  -->
+	<!-- ||| END GENERAL CONFIG ||| -->
+	
+	<!-- ||| START PAY TABLE ||| -->
+	
+	<three_fish>10</three_fish> <!-- prize of three fish  -->
+	<four_fish>20</four_fish> <!-- prize of four fish  -->
+	<five_fish>100</five_fish> <!-- prize of five fish  -->
+	
+	<three_anchor>15</three_anchor> <!-- prize of three anchor  -->
+	<four_anchor>25</four_anchor> <!-- prize of four anchor  -->
+	<five_anchor>150</five_anchor> <!-- prize of five anchor  -->
+	
+	<!-- make similar with these below  -->
+	
+	<three_hook>20</three_hook>
+	<four_hook>60</four_hook>
+	<five_hook>200</five_hook>
+	
+	<three_sushi>30</three_sushi>
+	<four_sushi>150</four_sushi>
+	<five_sushi>500</five_sushi>
+	
+	<three_octopus>100</three_octopus>
+	<four_octopus>200</four_octopus>
+	<five_octopus>1000</five_octopus>
+	
+	<three_youngman>200</three_youngman>
+	<four_youngman>500</four_youngman>
+	<five_youngman>2500</five_youngman>
+	
+	<three_oldman>300</three_oldman>
+	<four_oldman>1000</four_oldman>
+	<five_oldman>5000</five_oldman>
+	
+	<three_boat>500</three_boat>
+	<four_boat>3000</four_boat>
+	<five_boat>10000</five_boat>
+	
+	<three_scatter>15</three_scatter>
+	<four_scatter>25</four_scatter>
+	<five_scatter>150</five_scatter>
+	
+	<three_jackpot>20</three_jackpot>
+	<four_jackpot>60</four_jackpot>
+	<five_jackpot>200</five_jackpot>
+	
+	<three_bonus>30</three_bonus>
+	<four_bonus>150</four_bonus>
+	<five_bonus>500</five_bonus>
+	<!-- ||| END PAY TABLE ||| -->
+</config>
+
+	<!-- ||| congratulations, completed your config |||-->
